@@ -2,12 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//캐릭터 피격시 색상변환,무적
 
 public class playerHit : MonoBehaviour
 {
     SpriteRenderer spriteRenderer;
-    Color halfA = new Color(1,1,1,0.5f);
-    Color fullA = new Color(1,1,1,1);
+    
+    public float invincibility;//무적시간
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -25,22 +28,28 @@ public class playerHit : MonoBehaviour
         if(collision.gameObject.tag == "Enemy"){
             OnDamaged();
 
-            //플레이어가 몬스터와 피격시 날아가는거 만들기
+            //피격후 무적시간 설정    
+            
+            
         }
     }
 
-    void OnDamaged(){//
-        
-        gameObject.layer = 3;
+    void OnDamaged(){//피격시 불투명 되는 함수
+        gameObject.layer = 11;
         Debug.Log("색상변경");
         //피격시 색상변경
-        
-        spriteRenderer.color=halfA;
-        
-        
+        spriteRenderer.color = new Color(1,1,1,0.4f);
 
-        //피격시 튕겨나감
+
+        //딜레이 //무적시간
+        Invoke("OffDemaged",invincibility);
     }
-    
-    
+
+    void OffDemaged(){//투명도를 원래대로
+        gameObject.layer = 9;
+        spriteRenderer.color = new Color(1,1,1,1);
+        Debug.Log("원래대로");
+    }
+   
 }
+

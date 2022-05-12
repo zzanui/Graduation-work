@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class CMove : MonoBehaviour
 {
-    //»ó¼ö°ª
+    //ï¿½ï¿½ï¿½ï¿½ï¿½
     float xSpeed = 3;
     float jumpHeight = 3;
     float minY = 0; 
     float jumpDuration = 0.5f;
 
-    //°è»ê¿¡ ÇÊ¿äÇÑ °ª
+    //ï¿½ï¿½ê¿¡ ï¿½Ê¿ï¿½ï¿½ï¿½ ï¿½ï¿½
     float jumpTimePassed = 0;
     bool isJumping = false;
 
@@ -20,27 +20,27 @@ public class CMove : MonoBehaviour
     }
 
     // Update is called once per frame
-    //¾÷µ¥ÀÌÆ®´Â ÇÁ·¹ÀÓ¸¶´Ù/ ÇÁ·¹ÀÓ´ÜÀ§
+    //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ó¸ï¿½ï¿½ï¿½/ ï¿½ï¿½ï¿½ï¿½ï¿½Ó´ï¿½ï¿½ï¿½
     void Update()
     {
         float xMove = Time.deltaTime * xSpeed;
 
         if (Input.GetKey(KeyCode.A))
         {
-            //µ¿ÀÛ - Æ÷Áö¼Ç °ªÀÌ ¹éÅÍ3   new Vector3(-1, 0, 0)
+            //ï¿½ï¿½ï¿½ï¿½ - ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½3   new Vector3(-1, 0, 0)
             transform.position += xMove * Vector3.left;
 
-            //Ä³¸¯ÅÍ ¹æÇâ
-            transform.localScale = new Vector3(1, 1, 1);
+            //Ä³ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+            transform.localScale = new Vector3(0.5f,0.5f,0.5f);
 
         }
         if (Input.GetKey(KeyCode.D))
         {
-            //Æ÷Áö¼Ç °ªÀÌ ¹éÅÍ3     new Vector3(1, 0, 0)
+            //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½3     new Vector3(1, 0, 0)
             transform.position += xMove * Vector3.right;
 
-            //Ä³¸¯ÅÍ ¹æÇâ
-            transform.localScale = new Vector3(-1, 1, 1);
+            //Ä³ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+            transform.localScale = new Vector3(0.5f,0.5f,0.5f);
         }
         if (Input.GetKeyDown(KeyCode.W))
         {
@@ -58,7 +58,7 @@ public class CMove : MonoBehaviour
             jumpTimePassed += Time.deltaTime;
             if(jumpTimePassed < jumpDuration)
             {
-                //ÇÁ·Î±×·¹½º ´ÜÀ§·Î °è»ê
+                //ï¿½ï¿½ï¿½Î±×·ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½
                 float progress = Mathf.Clamp01(jumpTimePassed / jumpDuration);
                 float currentY = Mathf.Sin(Mathf.PI * progress) * jumpHeight;
                 Vector3 xzPos = transform.position;
