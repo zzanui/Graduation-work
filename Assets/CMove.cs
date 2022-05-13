@@ -10,13 +10,17 @@ public class CMove : MonoBehaviour
     float minY = 0; 
     float jumpDuration = 0.5f;
 
-    //��꿡 �ʿ��� ��
+    //��꿡 �ʿ��� ��s
     float jumpTimePassed = 0;
     bool isJumping = false;
+
+    //랜더용 변수
+    SpriteRenderer rend;
 
     private void Start()
     {
         minY = transform.position.y;
+        rend = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
@@ -29,6 +33,7 @@ public class CMove : MonoBehaviour
         {
             //���� - ������ ���� ����3   new Vector3(-1, 0, 0)
             transform.position += xMove * Vector3.left;
+            rend.flipX=true;
 
             //ĳ���� ����
             transform.localScale = new Vector3(0.5f,0.5f,0.5f);
@@ -38,7 +43,7 @@ public class CMove : MonoBehaviour
         {
             //������ ���� ����3     new Vector3(1, 0, 0)
             transform.position += xMove * Vector3.right;
-
+            rend.flipX=false;
             //ĳ���� ����
             transform.localScale = new Vector3(0.5f,0.5f,0.5f);
         }
