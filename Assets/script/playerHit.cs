@@ -4,11 +4,15 @@ using UnityEngine;
 
 //캐릭터 피격시 색상변환,무적
 
+
+
 public class playerHit : MonoBehaviour
 {
     SpriteRenderer spriteRenderer;
     
     public float invincibility;//무적시간
+
+    public int HP = 10;
 
 
     // Start is called before the first frame update
@@ -39,6 +43,10 @@ public class playerHit : MonoBehaviour
         Debug.Log("색상변경");
         //피격시 색상변경
         spriteRenderer.color = new Color(1,1,1,0.4f);
+        //피격시 hp 감소
+        HP -= 1;
+        Debug.Log("현재 체력 " + HP + "입니다.");
+            
 
 
         //딜레이 //무적시간
