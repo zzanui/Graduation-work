@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class CMove : MonoBehaviour
 {
+
+    //HitBox의 거리
+    public float HitRange = 1f;
+
     //�����
     float xSpeed = 3;
     float jumpHeight = 3;
@@ -19,8 +23,11 @@ public class CMove : MonoBehaviour
 
     private void Start()
     {
+        
+
         minY = transform.position.y;
         rend = GetComponent<SpriteRenderer>();
+        
     }
 
     // Update is called once per frame
@@ -38,6 +45,9 @@ public class CMove : MonoBehaviour
             //ĳ���� ����
             transform.localScale = new Vector3(0.5f,0.5f,0.5f);
 
+            //히트박스 위치 변경 
+            transform.GetChild(0).gameObject.transform.position = transform.position + new Vector3(HitRange*(-1),0f,0f);  
+            
         }
         if (Input.GetKey(KeyCode.D))
         {
@@ -46,6 +56,9 @@ public class CMove : MonoBehaviour
             rend.flipX=false;
             //ĳ���� ����
             transform.localScale = new Vector3(0.5f,0.5f,0.5f);
+
+            //히트박스 위치 변경 
+            transform.GetChild(0).gameObject.transform.position = transform.position + new Vector3(HitRange,0f,0f);
         }
         if (Input.GetKeyDown(KeyCode.W))
         {
@@ -81,5 +94,9 @@ public class CMove : MonoBehaviour
             
 
         }
+        
     }
+
+
+
 }
