@@ -5,24 +5,38 @@ using UnityEngine;
 public class playerMove : MonoBehaviour
 {
     GameObject player;
-    CMove playerScript;
+    CMove playerMoveScript;
+    playerAttack playerAttackscript;
     // Start is called before the first frame update
     public void Init(){
         player = GameObject.FindGameObjectWithTag("Player");
-        playerScript = player.GetComponent<CMove>();
+        playerMoveScript = player.GetComponent<CMove>();
+        playerAttackscript = player.GetComponent<playerAttack>();
     }
-
-    public void leftMove(){
-        //playerScript.
+    //왼쪽버튼 누르고 있을시
+    public void leftDown(){
+        playerMoveScript.inputLeft = true;
     }
-    public void rightMove(){
-        Debug.Log("오른쪽");
+    //왼쪽버튼 땟을시
+    public void leftUp(){
+        playerMoveScript.inputLeft = false;
     }
-    public void jumpMove(){
-        Debug.Log("점프");
+    //오른쪽버튼 누르고 있을시
+    public void rightDown(){
+        playerMoveScript.inputRight = true;
     }
-    public void attackMove(){
-        Debug.Log("공격");
+    //오른쪽버튼 땟을시
+    public void rightUp(){
+        playerMoveScript.inputRight = false;
+    }
+    //점프버튼 누를시
+    public void jumpClick(){
+        playerMoveScript.inputJump = true;
+    }
+    
+    //공격버튼 누를시
+    public void attackClick(){
+        playerAttackscript.inputAttack = true;
     }
     
 }

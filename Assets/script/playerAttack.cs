@@ -9,6 +9,9 @@ public class playerAttack : MonoBehaviour
     [SerializeField]
     public float speed; //뭔지 확인해보자
   
+    //공격입력신호 변수
+    public bool inputAttack = false;    
+
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -24,7 +27,7 @@ public class playerAttack : MonoBehaviour
         if(curTime <= 0){
             //공격
             //M버튼 클릭시
-            if(Input.GetKey(KeyCode.M)){
+            if(inputAttack){
                 //공격범위를 초기화
 
                 //박스범위 내의 모든 오브젝트를 가져옴
@@ -40,6 +43,9 @@ public class playerAttack : MonoBehaviour
                     
                 }
                 curTime = coolTime;
+
+                //공격 동작이 끝난 후 입력신호를 없음으로
+                inputAttack = false;
             }
             
         }
