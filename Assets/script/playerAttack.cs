@@ -17,7 +17,7 @@ public class playerAttack : MonoBehaviour
 
     private float curTime;
     public float coolTime = 0.5f;//공격 딜레이 시간
-    public Transform pos;
+    public Transform pos ;
     public Vector2 boxSize;
     void Update()
     {
@@ -25,9 +25,14 @@ public class playerAttack : MonoBehaviour
             //공격
             //M버튼 클릭시
             if(Input.GetKey(KeyCode.M)){
+                //공격범위를 초기화
+
+                //박스범위 내의 모든 오브젝트를 가져옴
                 Collider2D[] collider2Ds = Physics2D.OverlapBoxAll(pos.position,boxSize,0);
+                
+
                 foreach (Collider2D collider in collider2Ds)
-                {
+                {   //가져온 오브젝트가 
                     if(collider.tag == "Enemy"){
                         Debug.Log("공격!");
                         collider.GetComponent<Enemy>().TakeDamage(1);
@@ -48,5 +53,6 @@ public class playerAttack : MonoBehaviour
     {
         Gizmos.color = Color.blue;
         Gizmos.DrawWireCube(pos.position,boxSize);
+        
     }
 }

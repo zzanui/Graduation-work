@@ -4,20 +4,16 @@ using UnityEngine;
 
 public class playerMove : MonoBehaviour
 {
+    GameObject player;
+    CMove playerScript;
     // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+    public void Init(){
+        player = GameObject.FindGameObjectWithTag("Player");
+        playerScript = player.GetComponent<CMove>();
     }
 
     public void leftMove(){
-        Debug.Log("왼쪽");
+        //playerScript.
     }
     public void rightMove(){
         Debug.Log("오른쪽");
