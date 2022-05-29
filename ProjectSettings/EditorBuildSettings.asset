@@ -29,217 +29,199 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
+  - enabled: 1
     path: 
     guid: 00000000000000000000000000000000
   - enabled: 1
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
+  - enabled: 1
     path: 
     guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/main_Scene.unity
-    guid: b89b744af37d9294298b3fd853453bc0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/mine_Scene.unity
-    guid: 6d0cec016bee7e240b5518a339214b6d
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/preferences_Scene.unity
-    guid: b772cf83c1efdbd4e803fb941acc248e
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
-    guid: a2035a97aedeb7a4d8fc472af24bd4bd
-  - enabled: 1
-    path: Assets/Scenes/store_Scene.unity
-    guid: 71387791462cdd34dbb77e0dfee12ee8
-  - enabled: 1
-    path: Assets/Scenes/wisdom_Scene.unity
-    guid: 9d5b79d2f77ed11479e3770bee9399e4
+    guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects: {}
