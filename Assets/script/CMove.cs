@@ -16,7 +16,7 @@ public class CMove : MonoBehaviour
     public bool inputJump = false;
 
     //�����
-    float xSpeed = 3;
+    float xSpeed = 5;
     float jumpHeight = 3;
     float minY = 0; 
     float jumpDuration = 0.5f;
@@ -28,10 +28,21 @@ public class CMove : MonoBehaviour
     //랜더용 변수
     SpriteRenderer rend;
 
+    //애니메이터 변수
+    Animator anim;
+    Rigidbody2D rigid;
+
+    void Awake()
+    {
+        rigid = GetComponent<Rigidbody2D>();
+        rend = GetComponent<SpriteRenderer>();
+        anim = GetComponent<Animator>();
+    }
+
     private void Start()
     {
         minY = transform.position.y;
-        rend = GetComponent<SpriteRenderer>();
+        
 
         playerMove ui = GameObject.FindGameObjectWithTag("Managers").GetComponent<playerMove>();
         Debug.Log(ui);
@@ -54,10 +65,11 @@ public class CMove : MonoBehaviour
             transform.localScale = new Vector3(0.5f,0.5f,0.5f);
 
             //히트박스 위치 변경 
-            transform.GetChild(0).gameObject.transform.position = transform.position + new Vector3(HitRangeX*(-1),HitRangeY,0);  
-            
+            transform.GetChild(0).gameObject.transform.position = transform.position + new Vector3(HitRangeX*(-1),HitRangeY,0);
+
+            anim.SetBool("Walking",true);
         }
-        if (inputRight)
+        else if (inputRight)
         {
             //������ ���� ����3     new Vector3(1, 0, 0)
             transform.position += xMove * Vector3.right;
@@ -67,6 +79,12 @@ public class CMove : MonoBehaviour
 
             //히트박스 위치 변경 
             transform.GetChild(0).gameObject.transform.position = transform.position + new Vector3(HitRangeX,HitRangeY,0);
+
+            anim.SetBool("Walking",true);
+        }
+        else
+        {
+            anim.SetBool("Walking", false);
         }
 
         if (inputJump)
@@ -75,9 +93,8 @@ public class CMove : MonoBehaviour
             {
                 isJumping = true;
                 jumpTimePassed = 0;
+                
             }
-
-            
         }
 
         if (isJumping)
@@ -85,6 +102,7 @@ public class CMove : MonoBehaviour
             jumpTimePassed += Time.deltaTime;
             if(jumpTimePassed < jumpDuration)
             {
+                anim.SetBool("JumpingUp", true);
                 float progress = Mathf.Clamp01(jumpTimePassed / jumpDuration);
                 float currentY = Mathf.Sin(Mathf.PI * progress) * jumpHeight;
                 Vector3 xzPos = transform.position;
@@ -93,17 +111,14 @@ public class CMove : MonoBehaviour
             }
             else
             {
+                anim.SetBool("JumpingUp", false);
                 isJumping = false;
                 Vector3 xzPos = transform.position;
                 xzPos.y = minY;
                 transform.position = xzPos;
             }
-            
-            
             inputJump = false;
         }
-        
-        
     }
     //---------------버튼용 함수들-------------------
     // void leftMoveButton(){
