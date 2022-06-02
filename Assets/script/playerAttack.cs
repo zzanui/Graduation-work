@@ -46,8 +46,12 @@ public class playerAttack : MonoBehaviour
 
                 //공격 동작이 끝난 후 입력신호를 없음으로
                 inputAttack = false;
+                animator.SetBool("Attack", true);
             }
-            
+            else
+            {
+                animator.SetBool("Attack", false);
+            }
         }
         else
         {
