@@ -620,7 +620,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &143083057
 MonoBehaviour:
@@ -4869,7 +4869,7 @@ Transform:
   m_Children:
   - {fileID: 1820091301}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &788705824
 MonoBehaviour:
@@ -4913,7 +4913,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 788705818}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: f8c1a7aa3353bd348aba4d0f9b860a84, type: 2}
   m_CullingMode: 0
@@ -7009,16 +7009,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: SpawnManager
       objectReference: {fileID: 0}
+    - target: {fileID: 2082316824641455412, guid: edd7715f959c143ada7077e4bd98e129,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2082316824641455413, guid: edd7715f959c143ada7077e4bd98e129,
         type: 3}
       propertyPath: enemy
       value: 
-      objectReference: {fileID: 7814918116354158384, guid: b3f3a5449ccce4d7aae545cb35190065,
+      objectReference: {fileID: 3336569882747177008, guid: 4d271bcd548812b49b159c596e89d20c,
         type: 3}
     - target: {fileID: 2082316824641455414, guid: edd7715f959c143ada7077e4bd98e129,
         type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2082316824641455414, guid: edd7715f959c143ada7077e4bd98e129,
         type: 3}

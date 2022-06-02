@@ -44,9 +44,9 @@ public class EnemyMove : MonoBehaviour
          SpriteRenderer.flipX = nextMove == 1; //nextMove 가 1이면 방향을 반대로 변경
 
          //Recursive (재귀함수는 가장 아래에 쓰는게 기본적)
-        float nextThinkTime = Random.Range(2f, 5f); // 생각하는 시간을 랜덤으로 부여
+        //float nextThinkTime = Random.Range(2f, 5f); // 생각하는 시간을 랜덤으로 부여
         //Think(); : 재귀함수 : 딜레이를 쓰지 않으면 CPU과부화 되므로 재귀함수를 쓸 때는 항상 주의 -> Think()를 직접 호출하는 대신 Invoke() 사용
-        Invoke("Think", nextThinkTime); //매개변수로 받은 함수를 time초의 딜레이를 부여하여 재실행
+        Think(); //매개변수로 받은 함수를 time초의 딜레이를 부여하여 재실행
     }
 
     void Turn()
