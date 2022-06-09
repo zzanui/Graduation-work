@@ -93,7 +93,7 @@ public class CMove : MonoBehaviour
             {
                 isJumping = true;
                 jumpTimePassed = 0;
-                
+                anim.SetBool("Jumping", false);
             }
         }
 
@@ -102,7 +102,7 @@ public class CMove : MonoBehaviour
             jumpTimePassed += Time.deltaTime;
             if(jumpTimePassed < jumpDuration)
             {
-                anim.SetBool("JumpingUp", true);
+                anim.SetBool("Jumping", true);
                 float progress = Mathf.Clamp01(jumpTimePassed / jumpDuration);
                 float currentY = Mathf.Sin(Mathf.PI * progress) * jumpHeight;
                 Vector3 xzPos = transform.position;
@@ -111,13 +111,17 @@ public class CMove : MonoBehaviour
             }
             else
             {
-                anim.SetBool("JumpingUp", false);
+                
                 isJumping = false;
                 Vector3 xzPos = transform.position;
                 xzPos.y = minY;
                 transform.position = xzPos;
             }
             inputJump = false;
+        }
+        else
+        {
+            anim.SetBool("Jumping", false);
         }
     }
     //---------------버튼용 함수들-------------------
