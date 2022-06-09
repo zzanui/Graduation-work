@@ -4629,7 +4629,7 @@ MonoBehaviour:
   speed: 3
   inputAttack: 0
   coolTime: 0.5
-  pos: {fileID: 0}
+  pos: {fileID: 1820091301}
   boxSize: {x: 4, y: 3}
 --- !u!114 &788705825
 MonoBehaviour:
