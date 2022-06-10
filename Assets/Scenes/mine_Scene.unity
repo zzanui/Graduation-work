@@ -1329,6 +1329,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   setTime: 20
   countdownText: {fileID: 348091646}
+  panel: {fileID: 0}
 --- !u!1 &1575103625
 GameObject:
   m_ObjectHideFlags: 0
@@ -1356,7 +1357,7 @@ RectTransform:
   m_GameObject: {fileID: 1575103625}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.94618267, y: 1.2015017, z: 1.2015017}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1197501478}
@@ -1387,7 +1388,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uBA54\uC778\uD654\uBA74"
+  m_text: "\uB4A4\uB85C\uAC00\uAE30\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 16755ad7e1396b14a8a5f361b085324d, type: 2}
   m_sharedMaterial: {fileID: -3241311651570843349, guid: 16755ad7e1396b14a8a5f361b085324d,
