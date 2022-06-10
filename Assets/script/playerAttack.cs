@@ -20,7 +20,7 @@ public class playerAttack : MonoBehaviour
 
     private float curTime;
     public float coolTime = 0.5f;//공격 딜레이 시간
-    public Transform pos ;
+    public Transform pos;
     public Vector2 boxSize;
     void Update()
     {
