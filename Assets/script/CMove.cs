@@ -6,7 +6,7 @@ public class CMove : MonoBehaviour
 {
 
     //HitBox의 거리
-    public float HitRangeX = 1;
+    public float HitRangeX = 2;
     public float HitRangeY = 0;
 
 
@@ -116,12 +116,9 @@ public class CMove : MonoBehaviour
                 Vector3 xzPos = transform.position;
                 xzPos.y = minY;
                 transform.position = xzPos;
+                anim.SetBool("Jumping", false);
             }
             inputJump = false;
-        }
-        else
-        {
-            anim.SetBool("Jumping", false);
         }
     }
     

@@ -17,6 +17,8 @@ public class playerCamera : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Vector3 position = Camera.main.WorldToViewportPoint(transform.position);
+        if (position.x < 0f) position.x = 0f;
         // 대상이 있는지 체크
         if(target.gameObject != null)
         {

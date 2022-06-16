@@ -74,7 +74,13 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 0
+  - enabled: 1
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
     path: 
     guid: 00000000000000000000000000000000
   - enabled: 0
@@ -119,25 +125,19 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 0
+  - enabled: 1
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 0
+  - enabled: 1
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 0
+  - enabled: 1
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 0
+  - enabled: 1
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
+  - enabled: 1
     path: 
     guid: 00000000000000000000000000000000
   - enabled: 0
@@ -236,9 +236,9 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/SampleScene.unity
+    guid: a2035a97aedeb7a4d8fc472af24bd4bd
   - enabled: 1
     path: Assets/Scenes/mine_Scene.unity
     guid: 6d0cec016bee7e240b5518a339214b6d

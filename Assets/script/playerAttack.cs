@@ -7,19 +7,16 @@ public class playerAttack : MonoBehaviour
     Animator animator;
     Rigidbody2D rigid;
     [SerializeField]
+    public Animator attackEffect;
     public float speed; //뭔지 확인해보자
-  
+    
     //공격입력신호 변수
     public bool inputAttack = false;    
 
-    //공격소리
-    AudioSource audioSource;
-    public AudioClip AttackSound;
     void Start()
     {
         animator = GetComponent<Animator>();
         rigid = GetComponent<Rigidbody2D>();
-        audioSource = GetComponent<AudioSource>();
     }
 
     private float curTime;
@@ -30,7 +27,6 @@ public class playerAttack : MonoBehaviour
     {
         if(curTime <= 0){
             //공격
-            //M버튼 클릭시
             if(inputAttack){
                 //공격범위를 초기화
 
@@ -43,8 +39,7 @@ public class playerAttack : MonoBehaviour
                     if(collider.tag == "Enemy"){
                         Debug.Log("공격!");
                         collider.GetComponent<Enemy>().TakeDamage(1);
-                        //오디오 출력
-                        this.audioSource.Play();
+                        attackEffect.SetBool("attackEffect", true);
                     }
                     
                 }
@@ -53,10 +48,12 @@ public class playerAttack : MonoBehaviour
                 //공격 동작이 끝난 후 입력신호를 없음으로
                 inputAttack = false;
                 animator.SetBool("Attack", true);
+                
             }
             else
             {
                 animator.SetBool("Attack", false);
+                attackEffect.SetBool("attackEffect", false);
             }
         }
         else
