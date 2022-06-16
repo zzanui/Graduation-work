@@ -10,6 +10,8 @@ public class playerAttack : MonoBehaviour
     public Animator attackEffect;
     public float speed; //뭔지 확인해보자
     
+    AudioSource audioSource;
+
     //공격입력신호 변수
     public bool inputAttack = false;    
 
@@ -17,6 +19,7 @@ public class playerAttack : MonoBehaviour
     {
         animator = GetComponent<Animator>();
         rigid = GetComponent<Rigidbody2D>();
+        audioSource = GetComponent<AudioSource>();
     }
 
     private float curTime;
@@ -37,9 +40,10 @@ public class playerAttack : MonoBehaviour
                 foreach (Collider2D collider in collider2Ds)
                 {   //가져온 오브젝트가 
                     if(collider.tag == "Enemy"){
-                        Debug.Log("공격!");
+                        
                         collider.GetComponent<Enemy>().TakeDamage(1);
                         attackEffect.SetBool("attackEffect", true);
+                        audioSource.Play();
                     }
                     
                 }

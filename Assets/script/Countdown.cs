@@ -17,7 +17,7 @@ public class Countdown : MonoBehaviour
 
     public void uiOpen(GameObject uiPenul){
        uiPenul.SetActive(true);
-       Debug.Log("uiOpen");
+
     }
     public void uiClose(GameObject uiPenul){
         uiPenul.SetActive(false);
@@ -31,7 +31,6 @@ public class Countdown : MonoBehaviour
         if(setTime > 0)
             setTime -= Time.deltaTime;
         else if (setTime <= 0) {
-            Time.timeScale = 0.0f;
             uiOpen(panel);
         }
 
