@@ -10,7 +10,7 @@ public class Btntype : MonoBehaviour
         switch (currentType)
         {
             case BTNType.New:
-                Debug.Log("세게임");
+                Debug.Log("새 게임");
                 break;
             case BTNType.Continue:
                 Debug.Log("이어하기");

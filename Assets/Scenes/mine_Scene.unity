@@ -778,7 +778,7 @@ GameObject:
   - component: {fileID: 421256008}
   - component: {fileID: 421256007}
   m_Layer: 5
-  m_Name: user_Label (1)
+  m_Name: Count_Label
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -802,7 +802,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: -161, y: -18.789505}
-  m_SizeDelta: {x: 125.3741, y: 46.2105}
+  m_SizeDelta: {x: 140, y: 46.2105}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &421256007
 MonoBehaviour:
@@ -1802,7 +1802,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee973700dc6ce4034b3e72fd6fe441ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  setTime: 3
+  setTime: 7
   countdownText: {fileID: 348091646}
   panel: {fileID: 505816289}
 --- !u!1 &1575103625
@@ -1863,10 +1863,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uB4A4\uB85C\uAC00\uAE30\n"
+  m_text: 'Back
+
+'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 16755ad7e1396b14a8a5f361b085324d, type: 2}
-  m_sharedMaterial: {fileID: -3241311651570843349, guid: 16755ad7e1396b14a8a5f361b085324d,
+  m_fontAsset: {fileID: 11400000, guid: 9fe018fe5f9f045c7811bf5459e2e4d6, type: 2}
+  m_sharedMaterial: {fileID: 6447333859754382329, guid: 9fe018fe5f9f045c7811bf5459e2e4d6,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -2131,7 +2133,7 @@ GameObject:
   - component: {fileID: 2051936958}
   - component: {fileID: 2051936957}
   m_Layer: 5
-  m_Name: Click
+  m_Name: Count_text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2190,7 +2192,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uD69F\uC218 :\n"
+  m_Text: 'Count : '
 --- !u!222 &2051936958
 CanvasRenderer:
   m_ObjectHideFlags: 0
