@@ -12,10 +12,14 @@ public class playerAttack : MonoBehaviour
     //공격입력신호 변수
     public bool inputAttack = false;    
 
+    //공격소리
+    AudioSource audioSource;
+    public AudioClip AttackSound;
     void Start()
     {
         animator = GetComponent<Animator>();
         rigid = GetComponent<Rigidbody2D>();
+        audioSource = GetComponent<AudioSource>();
     }
 
     private float curTime;
@@ -39,6 +43,8 @@ public class playerAttack : MonoBehaviour
                     if(collider.tag == "Enemy"){
                         Debug.Log("공격!");
                         collider.GetComponent<Enemy>().TakeDamage(1);
+                        //오디오 출력
+                        this.audioSource.Play();
                     }
                     
                 }
