@@ -330,6 +330,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ea1cc4d47fa3954f8391b56d533e323, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &83097985 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6481868729864226033, guid: 8114303020f45429b912f590ed093013,
+    type: 3}
+  m_PrefabInstance: {fileID: 2015837300}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd69e306e9e50ff49b63440e3a39c43a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &108930500 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8877798692084480610, guid: 8114303020f45429b912f590ed093013,
@@ -470,6 +482,18 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 837405178}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 83097985}
+        m_TargetAssemblyTypeName: PopupSettingsBgm, Assembly-CSharp
+        m_MethodName: OnSfx
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -2780,6 +2804,18 @@ MonoBehaviour:
           m_StringArgument: character_Scene
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 83097985}
+        m_TargetAssemblyTypeName: PopupSettingsBgm, Assembly-CSharp
+        m_MethodName: OnSfx
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &915709711
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2915,6 +2951,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 83097985}
+        m_TargetAssemblyTypeName: PopupSettingsBgm, Assembly-CSharp
+        m_MethodName: OnSfx
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &938925451
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3045,6 +3093,18 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 8300000, guid: 0cb53a14ef009f3419fc0a819d3cfcfb,
             type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 83097985}
+        m_TargetAssemblyTypeName: PopupSettingsBgm, Assembly-CSharp
+        m_MethodName: OnSfx
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -5223,6 +5283,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 83097985}
+        m_TargetAssemblyTypeName: PopupSettingsBgm, Assembly-CSharp
+        m_MethodName: OnSfx
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1612095610
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5385,6 +5457,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: Preferences_Scene
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 83097985}
+        m_TargetAssemblyTypeName: PopupSettingsBgm, Assembly-CSharp
+        m_MethodName: OnSfx
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1639461984
@@ -5686,6 +5770,18 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 8300000, guid: 0cb53a14ef009f3419fc0a819d3cfcfb,
             type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 83097985}
+        m_TargetAssemblyTypeName: PopupSettingsBgm, Assembly-CSharp
+        m_MethodName: OnSfx
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -6073,6 +6169,18 @@ MonoBehaviour:
           m_StringArgument: store_Scene
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 83097985}
+        m_TargetAssemblyTypeName: PopupSettingsBgm, Assembly-CSharp
+        m_MethodName: OnSfx
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1973730814
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6355,6 +6463,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: mine_Scene
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 83097985}
+        m_TargetAssemblyTypeName: PopupSettingsBgm, Assembly-CSharp
+        m_MethodName: OnSfx
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1990570815
@@ -6753,6 +6873,31 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5488558770499868913, guid: 8114303020f45429b912f590ed093013,
+        type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5488558770499868913, guid: 8114303020f45429b912f590ed093013,
+        type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 83097985}
+    - target: {fileID: 5488558770499868913, guid: 8114303020f45429b912f590ed093013,
+        type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetMusicVolume
+      objectReference: {fileID: 0}
+    - target: {fileID: 5488558770499868913, guid: 8114303020f45429b912f590ed093013,
+        type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PopupSettingsBgm, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 5488558770499868913, guid: 8114303020f45429b912f590ed093013,
+        type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 5488558770749087709, guid: 8114303020f45429b912f590ed093013,
         type: 3}
       propertyPath: m_textAlignment
@@ -6923,6 +7068,41 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5488558771068734992, guid: 8114303020f45429b912f590ed093013,
+        type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5488558771068734992, guid: 8114303020f45429b912f590ed093013,
+        type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5488558771068734992, guid: 8114303020f45429b912f590ed093013,
+        type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 83097985}
+    - target: {fileID: 5488558771068734992, guid: 8114303020f45429b912f590ed093013,
+        type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5488558771068734992, guid: 8114303020f45429b912f590ed093013,
+        type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetButtonVolume
+      objectReference: {fileID: 0}
+    - target: {fileID: 5488558771068734992, guid: 8114303020f45429b912f590ed093013,
+        type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PopupSettingsBgm, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 5488558771068734992, guid: 8114303020f45429b912f590ed093013,
+        type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 5488558771161322672, guid: 8114303020f45429b912f590ed093013,
         type: 3}
       propertyPath: m_AnchorMax.y
@@ -6993,6 +7173,16 @@ PrefabInstance:
       propertyPath: m_VerticalAlignment
       value: 512
       objectReference: {fileID: 0}
+    - target: {fileID: 6481868729864226033, guid: 8114303020f45429b912f590ed093013,
+        type: 3}
+      propertyPath: btnsource
+      value: 
+      objectReference: {fileID: 29398330}
+    - target: {fileID: 6481868729864226033, guid: 8114303020f45429b912f590ed093013,
+        type: 3}
+      propertyPath: musicsource
+      value: 
+      objectReference: {fileID: 1551167227}
     - target: {fileID: 8880736627898979093, guid: 8114303020f45429b912f590ed093013,
         type: 3}
       propertyPath: m_text
@@ -7391,6 +7581,18 @@ MonoBehaviour:
           m_StringArgument: SampleScene
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 83097985}
+        m_TargetAssemblyTypeName: PopupSettingsBgm, Assembly-CSharp
+        m_MethodName: OnSfx
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2075987545
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7521,6 +7723,18 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 8300000, guid: 0cb53a14ef009f3419fc0a819d3cfcfb,
             type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 83097985}
+        m_TargetAssemblyTypeName: PopupSettingsBgm, Assembly-CSharp
+        m_MethodName: OnSfx
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
